@@ -4,9 +4,9 @@ rootdir="$PWD"
 cd ..
 mkdir -p mcpe
 cd mcpe
-wget -O mcpe1141.7z "https://cdn.glitch.com/a9068bb8-2329-44b4-8406-ddefb02d1719%2Fmcpe1141.7z?v=1579376927835"
-wget -O mcpe190b3_x86.7z "https://cdn.glitch.com/a9068bb8-2329-44b4-8406-ddefb02d1719%2Fmcpe190b3_x86.7z?v=1579376252305"
-wget -O mcpe180.7z "https://cdn.glitch.com/a9068bb8-2329-44b4-8406-ddefb02d1719%2Fmcpe180.7z?v=1579376255027"
+wget -O mcpe1141.7z "https://cdn.glitch.com/e2797375-4825-49cc-ac43-cd65567e27e4%2Fmcpe1141.7z?v=1598768138848"
+wget -O mcpe190b3_x86.7z "https://cdn.glitch.com/e2797375-4825-49cc-ac43-cd65567e27e4%2Fmcpe190b3_x86.7z?v=1598768136005"
+wget -O mcpe180.7z "https://cdn.glitch.com/e2797375-4825-49cc-ac43-cd65567e27e4%2Fmcpe180.7z?v=1598768097339"
 #sha256sum -c "$rootdir/tools/ci/mc_archives_sha256sum.txt"
 
 7z -p$ASSETS_PASSWORD -aoa x mcpe1141.7z
